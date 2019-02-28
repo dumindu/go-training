@@ -71,3 +71,18 @@ Trying out [Go by Example](https://gobyexample.com/) by [@mmcgrana](https://twit
 1. [Signals](./signals.go)
 1. [Exit](./exit.go)
 
+# Discovering Go packages:
+
+This section is for discovering Go official or unofficial packages. It is like a sandbox for more advanced examples and tools that can be useful when doing awsome things.
+
+1. [ssh](./ssh/cmd/main.go)
+
+    This example uses `golang.org/x/crypto/ssh` to run an arbitary commands in a remote server. May be useful when creating programs that needs to make sshing stuff in a remote server.
+
+
+1. [ssh-tunneling](./ssh/tunneling/main.go)
+
+    This example will establish an ssh tunnel listening from localhost passing through a bastion to a remote server.
+
+1. [Kubernetes go client](https://github.com/kubernetes/client-go/)
+    1. [Out cluster Example](./k8s/examples/out-cluster/main.go): Discovering k8s go client to list pods and nodes from outside the cluster.
